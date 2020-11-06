@@ -30,7 +30,13 @@ cd ${CMSSW_BASE}/src/Configuration/SamplePractice
 # from gridpack to GENSIM
 NEVENT=$NEVENT	# e.g. NEVENT=2000
 FRAGMENT=$FRAGMENT # e.g. FRAGMENT=DYm50_CP5
-cmsDriver.py Configuration/SamplePractice/python/${FRAGMENT}_cff.py --python_filename config/${FRAGMENT}_cfg.py --eventcontent RAWSIM,LHE --customise Configuration/DataProcessing/Utils.addMonitoring --datatier GEN,LHE --fileout file:${FRAGMENT}.root --conditions 106X_mc2017_realistic_v6 --beamspot Realistic25ns13TeVEarly2017Collision --step LHE,GEN --geometry DB:Extended --era Run2_2017 --no_exec --mc -n $NEVENT
+cmsDriver.py Configuration/SamplePractice/python/${FRAGMENT}_cff.py \
+--python_filename config/${FRAGMENT}_cfg.py --eventcontent RAWSIM,LHE \
+--customise Configuration/DataProcessing/Utils.addMonitoring \
+--datatier GEN,LHE --fileout file:${FRAGMENT}.root --conditions 106X_mc2017_realistic_v6 \
+--beamspot Realistic25ns13TeVEarly2017Collision --step LHE,GEN \
+--geometry DB:Extended --era Run2_2017 \
+--no_exec --mc -n $NEVENT
 
 # run cmsRun command
 cmsRun config/${FRAGMENT}_cff.py
