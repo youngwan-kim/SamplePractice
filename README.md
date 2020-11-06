@@ -1,7 +1,7 @@
 # SamplePractice
 ---
 ### Quick Setup
-`
+```
 USER="$USER"
 GITACCOUNT="$GITACCOUNT"
 
@@ -14,8 +14,8 @@ git-cms-init
 # complie
 scram b -j 5
 
-mkdir -p $CMSSW_BASE/src/Configuration
-cd $CMSSW_BASE/src/Configuration
+mkdir -p ${CMSSW_BASE}/src/Configuration
+cd ${CMSSW_BASE}/src/Configuration
 # you should fork from https://github.com/choij1589/SamplePractice to your repository first
 git clone https://github.com/$GITACCOUNT/SamplePractice.git
 git remote add origin https://github.com/$GITACCOUNT/SamplePractice.git
@@ -24,7 +24,7 @@ git remote add upstream https://github.com/choij1589/SamplePractice.git
 # compile 2
 scram b
 
-cd $CMSSW_BASE/src/Configuration/SamplePractice
+cd ${CMSSW_BASE}/src/Configuration/SamplePractice
 
 # run cmsDriver.py command
 # from gridpack to GENSIM
@@ -34,4 +34,4 @@ cmsDriver.py Configuration/SamplePractice/python/${FRAGMENT}_cff.py --python_fil
 
 # run cmsRun command
 cmsRun config/${FRAGMENT}_cff.py
-`
+```
