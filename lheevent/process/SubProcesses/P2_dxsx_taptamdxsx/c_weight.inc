@@ -1,1 +1,0 @@
-../c_weight.inc
