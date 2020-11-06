@@ -1,0 +1,85 @@
+#************************************************************
+#*                    MadGraph5_aMC@NLO                     *
+#*                                                          *
+#*                *                       *                 *
+#*                  *        * *        *                   *
+#*                    * * * * 5 * * * *                     *
+#*                  *        * *        *                   *
+#*                *                       *                 *
+#*                                                          *
+#*                                                          *
+#*         VERSION 5.2.4.2               20xx-xx-xx         *
+#*                                                          *
+#*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+#*    https://server06.fynu.ucl.ac.be/projects/madgraph     *
+#*                           and                            *
+#*                http://amcatnlo.cern.ch                   *
+#*                                                          *
+#************************************************************
+#*                                                          *
+#*               Command File for aMCatNLO                  *
+#*                                                          *
+#*     run as ./bin/aMCatNLO.py filename                    *
+#*                                                          *
+#************************************************************
+launch -ox -n cmsgrid
+Traceback (most recent call last):
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/extended_cmd.py", line 1009, in onecmd
+    return self.onecmd_orig(line, **opt)
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/extended_cmd.py", line 964, in onecmd_orig
+    return func(arg, **opt)
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/amcatnlo_run_interface.py", line 1205, in do_launch
+    evt_file = self.run(mode, options)
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/amcatnlo_run_interface.py", line 1427, in run
+    self.run_all_jobs(jobs_to_run,mint_step,fixed_order=False)
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/amcatnlo_run_interface.py", line 1628, in run_all_jobs
+    self.wait_for_complete(run_type)
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/amcatnlo_run_interface.py", line 3780, in wait_for_complete
+    self.cluster.wait(self.me_dir, update_status)
+  File "/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/process/bin/internal/cluster.py", line 800, in wait
+    use_lock = self.lock.wait(300)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python/2.7.6/lib/python2.7/threading.py", line 620, in wait
+    self.__cond.wait(timeout)
+  File "/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python/2.7.6/lib/python2.7/threading.py", line 358, in wait
+    _sleep(delay)
+KeyboardInterrupt
+Value of current Options:
+              text_editor 	:	None
+              web_browser 	:	None
+        cluster_temp_path 	:	None
+                  timeout 	:	60
+       cluster_local_path 	:	/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
+            cluster_queue 	:	None
+         madanalysis_path 	:	None
+                   lhapdf 	:	/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF/../../bin/lhapdf-config
+      output_dependencies 	:	internal
+             cluster_size 	:	100
+           cluster_memory 	:	None
+                    pjfry 	:	None
+    cluster_status_update 	:	(300, 120)
+             cluster_time 	:	None
+            f2py_compiler 	:	None
+               hepmc_path 	:	None
+             pythia8_path 	:	None
+                hwpp_path 	:	None
+   automatic_html_opening 	:	False
+       cluster_retry_wait 	:	30
+             stdout_level 	:	None
+          pythia-pgs_path 	:	None
+                 mg5_path 	:	/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/mgbasedir
+                  td_path 	:	None
+             delphes_path 	:	None
+              thepeg_path 	:	None
+             cluster_type 	:	condor
+         cluster_nb_retry 	:	10
+         fortran_compiler 	:	None
+                  nb_core 	:	1
+              auto_update 	:	0
+      exrootanalysis_path 	:	None
+               eps_viewer 	:	None
+             syscalc_path 	:	/d0/scratch/choij/CMSSW/CMSSW_10_6_4/src/Configuration/SamplePractice/lheevent/mgbasedir/SysCalc
+                  fastjet 	:	None
+                    golem 	:	None
+             cpp_compiler 	:	None
+      notification_center 	:	True
+                 run_mode 	:	2

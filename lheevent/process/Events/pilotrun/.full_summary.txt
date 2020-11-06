@@ -1,0 +1,108 @@
+
+   --------------------------------------------------------------
+      Summary:
+      Process p p > ell+ ell- [QCD] @0 ; p p > ell+ ell- j [QCD] @1 ; p p > ell+ ell- j j [QCD] @2
+      Run at p-p collider (6500.0 + 6500.0 GeV)
+      Number of events generated: 1500
+      Total cross section: 1.101e+04 +- 1.8e+01 pb
+   --------------------------------------------------------------
+  Number of loop ME evaluations (by MadLoop): 5936156
+    Stability unknown:                   0
+    Stable PS point:                     5926416
+    Unstable PS point (and rescued):     9738
+    Unstable PS point (and not rescued): 2
+    Only double precision used:          5926416
+    Quadruple precision used:            9740
+    Initialization phase-space points:   0
+    Reduction methods used:
+      > CutTools (double precision)      5926416
+      > CutTools (quadruple precision)   9738
+      > Not identified (CTModeRun != -1) 2
+  Total number of unstable PS point detected: 2 (0.00%)
+    Maximum fraction of UPS points in channel processtmp/SubProcesses/P2_gux_taptamuxg/GF13 (0.05%)
+    Please report this to the authors while providing the file
+    /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/processtmp/SubProcesses/P2_gux_taptamuxg/GF13/UPS.log
+
+
+
+  Statistics on virtual integration optimization : 
+    Maximum virt fraction computed         0.167 (P2_uc_epemuc/GF7)
+    Minimum virt fraction computed         0.005 (P1_gdx_taptamdx/GF4)
+    Average virt fraction computed         0.014
+  Stats below exclude negligible channels (666 excluded out of 1088)
+    Maximum virt ratio used                67.42 (P2_uu_taptamuu/GF12)
+    Maximum virt ratio found from grids    57.62 (P2_uu_epemuu/GF4)
+    Max. MC err. on virt ratio from grids  0.7 % (P2_ud_epemud/GF3)
+    Maximum MC error on abs virt           28.1 % (P2_dg_taptamdg/GF4)
+
+  Inclusive timing profile :
+    Overall slowest channel          2:47:42 (P2_gd_epemdg/GF12 [step 1])
+    Average channel running time     0:08:13
+    Aggregated total running time    13 days, 21:58:50
+  Timing profile for <Reals_evaluation> :
+    Overall fraction of time         39.073 %
+    Largest fraction of time         55.964 % (P0_uux_epem/GF2 [step 1])
+    Smallest fraction of time        0.000 % (P2_dsx_taptamdsx/GF7 [step 2])
+  Timing profile for <Counter_terms> :
+    Overall fraction of time         17.734 %
+    Largest fraction of time         31.010 % (P1_ug_taptamu/GF1 [step 1])
+    Smallest fraction of time        0.000 % (P2_ds_taptamds/GF4 [step 2])
+  Timing profile for <Virtuals> :
+    Overall fraction of time         14.608 %
+    Largest fraction of time         95.376 % (P2_dxg_epemdxg/GF10 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_taptam/GF2 [step 2])
+  Timing profile for <FxFx_cluster> :
+    Overall fraction of time         12.620 %
+    Largest fraction of time         38.465 % (P2_dxu_epemdxu/GF8 [step 1])
+    Smallest fraction of time        0.000 % (P0_dxd_taptam/GF1 [step 2])
+  Timing profile for <MCsubtraction> :
+    Overall fraction of time         4.123 %
+    Largest fraction of time         9.040 % (P2_uxg_taptamuxg/GF2 [step 1])
+    Smallest fraction of time        0.000 % (P1_dg_epemd/GF2 [step 2])
+  Timing profile for <Other_tasks> :
+    Overall fraction of time         2.422 %
+    Largest fraction of time         86.784 % (P2_udx_taptamudx/GF4 [step 2])
+    Smallest fraction of time        0.661 % (P2_uux_taptamuux/GF11 [step 0])
+  Timing profile for <N1body_prefactor> :
+    Overall fraction of time         2.401 %
+    Largest fraction of time         5.343 % (P2_gu_taptamug/GF15 [step 1])
+    Smallest fraction of time        0.000 % (P0_dxd_epem/GF2 [step 2])
+  Timing profile for <Nbody_prefactor> :
+    Overall fraction of time         2.295 %
+    Largest fraction of time         8.022 % (P2_uu_taptamuu/GF11 [step 1])
+    Smallest fraction of time        0.000 % (P0_dxd_epem/GF2 [step 2])
+  Timing profile for <Born> :
+    Overall fraction of time         1.287 %
+    Largest fraction of time         12.500 % (P1_uxg_taptamux/GF4 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_epem/GF2 [step 2])
+  Timing profile for <Adding_alphas_pdf> :
+    Overall fraction of time         1.097 %
+    Largest fraction of time         6.404 % (P1_uux_epemg/GF1 [step 2])
+    Smallest fraction of time        0.000 % (P0_uux_epem/GF1 [step 2])
+  Timing profile for <Applying_cuts> :
+    Overall fraction of time         0.983 %
+    Largest fraction of time         3.681 % (P1_ddx_taptamg/GF2 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_epem/GF2 [step 2])
+  Timing profile for <PS_Generation> :
+    Overall fraction of time         0.816 %
+    Largest fraction of time         20.440 % (P2_uxd_epemuxd/GF3 [step 2])
+    Smallest fraction of time        0.000 % (P0_dxd_taptam/GF1 [step 2])
+  Timing profile for <Integrated_CT> :
+    Overall fraction of time         0.460 %
+    Largest fraction of time         2.777 % (P2_ds_taptamds/GF4 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_epem/GF2 [step 2])
+  Timing profile for <Sum_ident_contr> :
+    Overall fraction of time         0.080 %
+    Largest fraction of time         1.408 % (P1_dxd_epemg/GF1 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_taptam/GF2 [step 2])
+  Timing profile for <Write_events> :
+    Overall fraction of time         0.001 %
+    Largest fraction of time         33.058 % (P1_uxu_epemg/GF1 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_epem/GF1 [step 0])
+  Timing profile for <Pick_unwgt> :
+    Overall fraction of time         0.000 %
+    Largest fraction of time         0.177 % (P2_dg_epemdg/GF10 [step 2])
+    Smallest fraction of time        0.000 % (P0_ddx_epem/GF1 [step 0])
+  Zero time record for Filling_plots.
+  Zero time record for Reweight_pdf.
+  Zero time record for Reweight_scale.

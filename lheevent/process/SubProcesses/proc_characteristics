@@ -1,0 +1,10 @@
+#    Information about the process      #
+#########################################
+ grouped_matrix = False 
+ nb_channel = 0 
+ has_loops = True 
+ ninitial = 2 
+ has_isr = True 
+ nexternal = 7 
+ has_fsr = True 
+ loop_induced = False 

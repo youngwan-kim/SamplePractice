@@ -1,0 +1,4 @@
+      DATA GFORCEBW(-1,1)/.FALSE./
+      DATA GFORCEBW(-1,2)/.FALSE./
+      DATA GFORCEBW(-1,3)/.FALSE./
+      DATA GFORCEBW(-1,4)/.FALSE./

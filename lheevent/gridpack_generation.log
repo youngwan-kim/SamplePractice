@@ -1,0 +1,1657 @@
+++ date
++ echo 'Starting job on ' Wed Nov 8 12:44:41 CST 2017
+Starting job on  Wed Nov 8 12:44:41 CST 2017
+++ uname -a
++ echo 'Running on ' Linux login.uscms.org 4.9.59-1.ultra.el6.x86_64 '#1' SMP Tue Oct 31 14:58:00 CDT 2017 x86_64 x86_64 x86_64 GNU/Linux
+Running on  Linux login.uscms.org 4.9.59-1.ultra.el6.x86_64 #1 SMP Tue Oct 31 14:58:00 CDT 2017 x86_64 x86_64 x86_64 GNU/Linux
+++ cat /etc/redhat-release
++ echo 'System release ' Scientific Linux release 6.9 '(Carbon)'
+System release  Scientific Linux release 6.9 (Carbon)
++ echo 'name: dyellell012j_5f_NLO_FXFX'
+name: dyellell012j_5f_NLO_FXFX
++ echo 'carddir: cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX'
+carddir: cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX
++ echo 'queue: condor'
+queue: condor
++ echo 'scram_arch: slc6_amd64_gcc481'
+scram_arch: slc6_amd64_gcc481
++ echo 'cmssw_version: CMSSW_7_1_30'
+cmssw_version: CMSSW_7_1_30
++ is5FlavorScheme=-1
++ '[' -z x ']'
++ '[' 1 -eq 0 ']'
++ AFSFOLD=/home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX
++ AFS_GEN_FOLDER=/home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX
++ CARDSDIR=/home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX
++ MGBASEDIR=mgbasedir
++ MG=MG5_aMC_v2.4.2.tar.gz
++ MGSOURCE=https://cms-project-generators.web.cern.ch/cms-project-generators/MG5_aMC_v2.4.2.tar.gz
++ SYSCALC=SysCalc_V1.1.6.tar.gz
++ SYSCALCSOURCE=https://cms-project-generators.web.cern.ch/cms-project-generators/SysCalc_V1.1.6.tar.gz
++ MGBASEDIRORIG=MG5_aMC_v2_4_2
++ isscratchspace=0
++ '[' '!' -d /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack ']'
++ '[' INTEGRATE = INTEGRATE ']'
++ echo 'Reusing existing directory assuming generated code already exists'
+Reusing existing directory assuming generated code already exists
++ echo 'WARNING: If you changed the process card you need to clean the folder and run from scratch'
+WARNING: If you changed the process card you need to clean the folder and run from scratch
++ '[' -1 -eq -1 ']'
++ grep -q -e '^p *=.*b\~.*b' -e '^p *=.*b.*b\~'
++ cat /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX_codegen.log /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX.log
++ is5FlavorScheme=1
++ cd /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX
++ WORKDIR=/home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/
++ '[' '!' -d /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/ ']'
++ cd /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/
+++ scram runtime -sh
++ eval export 'SRT_CMSSW_VERSION_SCRAMRTDEL="CMSSW_7_1_30";' export 'SRT_CMSSW_BASE_SCRAMRTDEL="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack";' export 'SRT_CMSSW_RELEASE_BASE_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30";' export 'SRT_DBS_CLIENT_CONFIG_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI/dbs.config";' export 'SRT_G4SAIDXSDATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4SAIDDATA/1.1-cms/data/G4SAIDDATA1.1";' export 'SRT_GIT_TEMPLATE_DIR_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/git-core/templates";' export 'SRT_ROOT_INCLUDE_PATH_SCRAMRTDEL="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC";' export 'SRT_GIT_SSL_CAINFO_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/ssl/certs/ca-bundle.crt";' export 'SRT_HERWIGPATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/herwigpp/2.7.1-ddibom7/share/Herwig++";' export 'SRT_CMSSW_DATA_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms";' export 'SRT_LANG_SCRAMRT="C";' export 'SRT_VALGRIND_LIB_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/valgrind/3.9.0-ddibom/lib/valgrind";' export 'SRT_GENREFLEX_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/bin/genreflex";' export 'SRT_LD_LIBRARY_PATH_SCRAMRT="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/biglib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/biglib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib";' export 'SRT_G4ABLADATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4ABLA/3.0/data/G4ABLA3.0";' export 'SRT_G4RADIOACTIVEDATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4RadioactiveDecay/4.0/data/RadioactiveDecay4.0";' export 'SRT_G4NEUTRONHPDATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NDL/4.4/data/G4NDL4.4";' export 'SRT_DBSCMD_HOME_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI";' export 'SRT_G4NEUTRONXSDATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4";' export 'SRT_PDFPATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/share";' export 'SRT_EVTGENDATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/evtgen/1.3.0-ddibom10/share";' export 'SRT_CMSSW_SEARCH_PATH_SCRAMRTDEL="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/data:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/data";' export 'SRT_HEPPDT_PARAM_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/heppdt/3.03.00";' export 'SRT_LOCALRT_SCRAMRTDEL="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack";' export 'SRT_PATH_SCRAMRT="/cvmfs/cms.cern.ch/share/overrides/bin:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/bin/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/bin/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin";' export 'SRT_SHERPA_SHARE_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/share/SHERPA-MC";' export 'SRT_FRONTIER_CLIENT_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/";' export 'SRT_QTINC_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/include";' export 'SRT_WORKER_DATA_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/blackhat/0.9.9-cms3/share/blackhat/datafiles/";' export 'SRT_LHAPDF_DATA_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF";' export 'SRT_OPAL_PREFIX_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openmpi/2.1.1";' export 'SRT_GIT_EXEC_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/libexec/git-core";' export 'SRT_QTDIR_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1";' export 'SRT_SHERPA_INCLUDE_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC";' export 'SRT_CLHEP_PARAM_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms";' export 'SRT_COMPILER_RUNTIME_OBJECTS_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1";' export 'SCRAMRT_SET="CMSSW:CMSSW_7_1_30:slc6_amd64_gcc481:V2_2_7_pre3:SRT_";' export 'SRT_PYTHIA8DATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pythia8/226-ddibom3/share/Pythia8/xmldoc";' export 'SRT_CMSSW_GIT_HASH_SCRAMRTDEL="CMSSW_7_1_30";' export 'SRT_PERL5LIB_SCRAMRT="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/perl5";' export 'SRT_RIVET_ANALYSIS_PATH_SCRAMRTDEL="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib";' export 'SRT_CMSSW_FWLITE_INCLUDE_PATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/hepmc/2.06.07-ddibom/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms/include";' export 'SRT_G4LEDATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4EMLOW/6.35/data/G4EMLOW6.35";' export 'SRT_ROOFITSYS_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/roofit/5.34.18-ddibom/";' export 'SRT_TNS_ADMIN_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/oracle-env/29-cms/etc";' export 'SRT_G4LEVELGAMMADATA_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4PhotonEvaporation/3.0/data/PhotonEvaporation3.0";' export 'SRT_QTLIB_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/lib";' export 'SRT_GEANT4_PARFULLCMS_CONFIG_DIR_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-parfullcms/2014.01.27-ddibom2/share/ParFullCMS";' export 'SRT_G4FORCENUMBEROFTHREADS_SCRAMRTDEL="max";' export 'SRT_ROOTSYS_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/";' export 'SRT_PYTHONPATH_SCRAMRT="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/python:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyqt/4.8.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-scipy/0.8.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-matplotlib/1.2.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/yoda/1.0.4-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python-ldap/2.4.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sip/4.11.2-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-sqlalchemy/0.8.2-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pycurl/7.19.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-python-dateutil/1.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-numpy/1.6.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-lint/0.25.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-ipython/0.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cx-oracle/5.1-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cjson/1.0.5-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/python/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/das_client/v02.17.04/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cython/0.19.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyminuit2/0.0.1-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pygithub/1.23.0-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-networkx/1.8.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/professor/1.0.0-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cvs2git/5419-cms2/lib";' export 'SRT_CASCADE_PDFPATH_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cascade/2.2.04-ddibom6/share";' export 'SRT_CMS_OPENLOOPS_PREFIX_SCRAMRTDEL="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openloops/1.3.1";' export 'SRT_MALLOC_CONF_SCRAMRTDEL="lg_chunk:18,lg_dirty_mult:4";' export 'CMSSW_BASE="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack";' export 'CMSSW_VERSION="CMSSW_7_1_30";' export 'CMSSW_GIT_HASH="CMSSW_7_1_30";' export 'LOCALRT="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack";' export 'LANG="C";' export 'CMSSW_RELEASE_BASE="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30";' export 'ROOFITSYS="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/roofit/5.34.18-ddibom/";' export 'EVTGENDATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/evtgen/1.3.0-ddibom10/share";' export 'PYTHIA8DATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pythia8/226-ddibom3/share/Pythia8/xmldoc";' export 'LHAPDF_DATA_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF";' export 'FRONTIER_CLIENT="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/";' export 'GENREFLEX="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/bin/genreflex";' export 'TNS_ADMIN="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/oracle-env/29-cms/etc";' export 'CASCADE_PDFPATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cascade/2.2.04-ddibom6/share";' export 'VALGRIND_LIB="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/valgrind/3.9.0-ddibom/lib/valgrind";' export 'OPAL_PREFIX="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openmpi/2.1.1";' export 'MALLOC_CONF="lg_chunk:18,lg_dirty_mult:4";' export 'ROOTSYS="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/";' export 'HERWIGPATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/herwigpp/2.7.1-ddibom7/share/Herwig++";' export 'HEPPDT_PARAM_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/heppdt/3.03.00";' export 'G4FORCENUMBEROFTHREADS="max";' export 'DBS_CLIENT_CONFIG="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI/dbs.config";' export 'DBSCMD_HOME="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI";' export 'CLHEP_PARAM_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms";' export 'COMPILER_RUNTIME_OBJECTS="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1";' export 'G4LEVELGAMMADATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4PhotonEvaporation/3.0/data/PhotonEvaporation3.0";' export 'QTINC="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/include";' export 'CMSSW_FWLITE_INCLUDE_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/hepmc/2.06.07-ddibom/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms/include";' export 'GIT_TEMPLATE_DIR="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/git-core/templates";' export 'LD_LIBRARY_PATH="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/biglib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/biglib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/dcap:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/lcgdm";' export 'G4SAIDXSDATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4SAIDDATA/1.1-cms/data/G4SAIDDATA1.1";' export 'PDFPATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/share";' export 'G4ABLADATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4ABLA/3.0/data/G4ABLA3.0";' export 'G4NEUTRONXSDATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4";' export 'CMS_OPENLOOPS_PREFIX="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openloops/1.3.1";' export 'QTDIR="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1";' export 'G4RADIOACTIVEDATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4RadioactiveDecay/4.0/data/RadioactiveDecay4.0";' export 'WORKER_DATA_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/blackhat/0.9.9-cms3/share/blackhat/datafiles/";' export 'ROOT_INCLUDE_PATH="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC";' export 'G4LEDATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4EMLOW/6.35/data/G4EMLOW6.35";' export 'G4NEUTRONHPDATA="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NDL/4.4/data/G4NDL4.4";' export 'CMSSW_DATA_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms";' export 'GIT_EXEC_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/libexec/git-core";' export 'SHERPA_SHARE_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/share/SHERPA-MC";' export 'GIT_SSL_CAINFO="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/ssl/certs/ca-bundle.crt";' export 'SHERPA_INCLUDE_PATH="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC";' export 'QTLIB="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/lib";' export 'GEANT4_PARFULLCMS_CONFIG_DIR="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-parfullcms/2014.01.27-ddibom2/share/ParFullCMS";' export 'PERL5LIB="/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/share/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/perl5";' export 'PATH="/cvmfs/cms.cern.ch/share/overrides/bin:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/bin/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/bin/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/sbin:/cvmfs/cms.cern.ch/common:/cvmfs/cms.cern.ch/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/gkole/.local/bin:/home/gkole/bin";' export 'CMSSW_SEARCH_PATH="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/data:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/data";' export 'PYTHONPATH="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/python:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyqt/4.8.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-scipy/0.8.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-matplotlib/1.2.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/yoda/1.0.4-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python-ldap/2.4.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sip/4.11.2-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-sqlalchemy/0.8.2-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pycurl/7.19.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-python-dateutil/1.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-numpy/1.6.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-lint/0.25.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-ipython/0.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cx-oracle/5.1-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cjson/1.0.5-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/python/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/das_client/v02.17.04/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cython/0.19.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyminuit2/0.0.1-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pygithub/1.23.0-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-networkx/1.8.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/professor/1.0.0-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cvs2git/5419-cms2/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib/python2.6/site-packages:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/python2.6/site-packages:/usr/lib64/python2.6/site-packages:/usr/lib/python2.6/site-packages:";' export 'RIVET_ANALYSIS_PATH="/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib";' export 'SCRAM_ARCH="slc6_amd64_gcc481";'
+++ export SRT_CMSSW_VERSION_SCRAMRTDEL=CMSSW_7_1_30
+++ SRT_CMSSW_VERSION_SCRAMRTDEL=CMSSW_7_1_30
+++ export SRT_CMSSW_BASE_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ SRT_CMSSW_BASE_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ export SRT_CMSSW_RELEASE_BASE_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30
+++ SRT_CMSSW_RELEASE_BASE_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30
+++ export SRT_DBS_CLIENT_CONFIG_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI/dbs.config
+++ SRT_DBS_CLIENT_CONFIG_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI/dbs.config
+++ export SRT_G4SAIDXSDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4SAIDDATA/1.1-cms/data/G4SAIDDATA1.1
+++ SRT_G4SAIDXSDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4SAIDDATA/1.1-cms/data/G4SAIDDATA1.1
+++ export SRT_GIT_TEMPLATE_DIR_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/git-core/templates
+++ SRT_GIT_TEMPLATE_DIR_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/git-core/templates
+++ export SRT_ROOT_INCLUDE_PATH_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ SRT_ROOT_INCLUDE_PATH_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ export SRT_GIT_SSL_CAINFO_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/ssl/certs/ca-bundle.crt
+++ SRT_GIT_SSL_CAINFO_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/ssl/certs/ca-bundle.crt
+++ export SRT_HERWIGPATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/herwigpp/2.7.1-ddibom7/share/Herwig++
+++ SRT_HERWIGPATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/herwigpp/2.7.1-ddibom7/share/Herwig++
+++ export SRT_CMSSW_DATA_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms
+++ SRT_CMSSW_DATA_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms
+++ export SRT_LANG_SCRAMRT=C
+++ SRT_LANG_SCRAMRT=C
+++ export SRT_VALGRIND_LIB_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/valgrind/3.9.0-ddibom/lib/valgrind
+++ SRT_VALGRIND_LIB_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/valgrind/3.9.0-ddibom/lib/valgrind
+++ export SRT_GENREFLEX_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/bin/genreflex
+++ SRT_GENREFLEX_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/bin/genreflex
+++ export SRT_LD_LIBRARY_PATH_SCRAMRT=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/biglib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/biglib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib
+++ SRT_LD_LIBRARY_PATH_SCRAMRT=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/biglib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/biglib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib
+++ export SRT_G4ABLADATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4ABLA/3.0/data/G4ABLA3.0
+++ SRT_G4ABLADATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4ABLA/3.0/data/G4ABLA3.0
+++ export SRT_G4RADIOACTIVEDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4RadioactiveDecay/4.0/data/RadioactiveDecay4.0
+++ SRT_G4RADIOACTIVEDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4RadioactiveDecay/4.0/data/RadioactiveDecay4.0
+++ export SRT_G4NEUTRONHPDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NDL/4.4/data/G4NDL4.4
+++ SRT_G4NEUTRONHPDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NDL/4.4/data/G4NDL4.4
+++ export SRT_DBSCMD_HOME_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI
+++ SRT_DBSCMD_HOME_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI
+++ export SRT_G4NEUTRONXSDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4
+++ SRT_G4NEUTRONXSDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4
+++ export SRT_PDFPATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/share
+++ SRT_PDFPATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/share
+++ export SRT_EVTGENDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/evtgen/1.3.0-ddibom10/share
+++ SRT_EVTGENDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/evtgen/1.3.0-ddibom10/share
+++ export SRT_CMSSW_SEARCH_PATH_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/data:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/data
+++ SRT_CMSSW_SEARCH_PATH_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/data:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/data
+++ export SRT_HEPPDT_PARAM_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/heppdt/3.03.00
+++ SRT_HEPPDT_PARAM_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/heppdt/3.03.00
+++ export SRT_LOCALRT_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ SRT_LOCALRT_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ export SRT_PATH_SCRAMRT=/cvmfs/cms.cern.ch/share/overrides/bin:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/bin/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/bin/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin
+++ SRT_PATH_SCRAMRT=/cvmfs/cms.cern.ch/share/overrides/bin:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/bin/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/bin/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin
+++ export SRT_SHERPA_SHARE_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/share/SHERPA-MC
+++ SRT_SHERPA_SHARE_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/share/SHERPA-MC
+++ export SRT_FRONTIER_CLIENT_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/
+++ SRT_FRONTIER_CLIENT_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/
+++ export SRT_QTINC_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/include
+++ SRT_QTINC_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/include
+++ export SRT_WORKER_DATA_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/blackhat/0.9.9-cms3/share/blackhat/datafiles/
+++ SRT_WORKER_DATA_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/blackhat/0.9.9-cms3/share/blackhat/datafiles/
+++ export SRT_LHAPDF_DATA_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
+++ SRT_LHAPDF_DATA_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
+++ export SRT_OPAL_PREFIX_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openmpi/2.1.1
+++ SRT_OPAL_PREFIX_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openmpi/2.1.1
+++ export SRT_GIT_EXEC_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/libexec/git-core
+++ SRT_GIT_EXEC_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/libexec/git-core
+++ export SRT_QTDIR_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1
+++ SRT_QTDIR_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1
+++ export SRT_SHERPA_INCLUDE_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ SRT_SHERPA_INCLUDE_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ export SRT_CLHEP_PARAM_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms
+++ SRT_CLHEP_PARAM_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms
+++ export SRT_COMPILER_RUNTIME_OBJECTS_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1
+++ SRT_COMPILER_RUNTIME_OBJECTS_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1
+++ export SCRAMRT_SET=CMSSW:CMSSW_7_1_30:slc6_amd64_gcc481:V2_2_7_pre3:SRT_
+++ SCRAMRT_SET=CMSSW:CMSSW_7_1_30:slc6_amd64_gcc481:V2_2_7_pre3:SRT_
+++ export SRT_PYTHIA8DATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pythia8/226-ddibom3/share/Pythia8/xmldoc
+++ SRT_PYTHIA8DATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pythia8/226-ddibom3/share/Pythia8/xmldoc
+++ export SRT_CMSSW_GIT_HASH_SCRAMRTDEL=CMSSW_7_1_30
+++ SRT_CMSSW_GIT_HASH_SCRAMRTDEL=CMSSW_7_1_30
+++ export SRT_PERL5LIB_SCRAMRT=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/perl5
+++ SRT_PERL5LIB_SCRAMRT=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/perl5
+++ export SRT_RIVET_ANALYSIS_PATH_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib
+++ SRT_RIVET_ANALYSIS_PATH_SCRAMRTDEL=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib
+++ export SRT_CMSSW_FWLITE_INCLUDE_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/hepmc/2.06.07-ddibom/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms/include
+++ SRT_CMSSW_FWLITE_INCLUDE_PATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/hepmc/2.06.07-ddibom/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms/include
+++ export SRT_G4LEDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4EMLOW/6.35/data/G4EMLOW6.35
+++ SRT_G4LEDATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4EMLOW/6.35/data/G4EMLOW6.35
+++ export SRT_ROOFITSYS_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/roofit/5.34.18-ddibom/
+++ SRT_ROOFITSYS_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/roofit/5.34.18-ddibom/
+++ export SRT_TNS_ADMIN_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/oracle-env/29-cms/etc
+++ SRT_TNS_ADMIN_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/oracle-env/29-cms/etc
+++ export SRT_G4LEVELGAMMADATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4PhotonEvaporation/3.0/data/PhotonEvaporation3.0
+++ SRT_G4LEVELGAMMADATA_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4PhotonEvaporation/3.0/data/PhotonEvaporation3.0
+++ export SRT_QTLIB_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/lib
+++ SRT_QTLIB_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/lib
+++ export SRT_GEANT4_PARFULLCMS_CONFIG_DIR_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-parfullcms/2014.01.27-ddibom2/share/ParFullCMS
+++ SRT_GEANT4_PARFULLCMS_CONFIG_DIR_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-parfullcms/2014.01.27-ddibom2/share/ParFullCMS
+++ export SRT_G4FORCENUMBEROFTHREADS_SCRAMRTDEL=max
+++ SRT_G4FORCENUMBEROFTHREADS_SCRAMRTDEL=max
+++ export SRT_ROOTSYS_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/
+++ SRT_ROOTSYS_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/
+++ export SRT_PYTHONPATH_SCRAMRT=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/python:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyqt/4.8.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-scipy/0.8.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-matplotlib/1.2.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/yoda/1.0.4-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python-ldap/2.4.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sip/4.11.2-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-sqlalchemy/0.8.2-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pycurl/7.19.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-python-dateutil/1.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-numpy/1.6.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-lint/0.25.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-ipython/0.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cx-oracle/5.1-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cjson/1.0.5-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/python/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/das_client/v02.17.04/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cython/0.19.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyminuit2/0.0.1-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pygithub/1.23.0-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-networkx/1.8.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/professor/1.0.0-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cvs2git/5419-cms2/lib
+++ SRT_PYTHONPATH_SCRAMRT=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/python:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyqt/4.8.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-scipy/0.8.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-matplotlib/1.2.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/yoda/1.0.4-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python-ldap/2.4.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sip/4.11.2-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-sqlalchemy/0.8.2-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pycurl/7.19.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-python-dateutil/1.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-numpy/1.6.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-lint/0.25.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-ipython/0.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cx-oracle/5.1-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cjson/1.0.5-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/python/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/das_client/v02.17.04/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cython/0.19.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyminuit2/0.0.1-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pygithub/1.23.0-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-networkx/1.8.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/professor/1.0.0-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cvs2git/5419-cms2/lib
+++ export SRT_CASCADE_PDFPATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cascade/2.2.04-ddibom6/share
+++ SRT_CASCADE_PDFPATH_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cascade/2.2.04-ddibom6/share
+++ export SRT_CMS_OPENLOOPS_PREFIX_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openloops/1.3.1
+++ SRT_CMS_OPENLOOPS_PREFIX_SCRAMRTDEL=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openloops/1.3.1
+++ export SRT_MALLOC_CONF_SCRAMRTDEL=lg_chunk:18,lg_dirty_mult:4
+++ SRT_MALLOC_CONF_SCRAMRTDEL=lg_chunk:18,lg_dirty_mult:4
+++ export CMSSW_BASE=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ CMSSW_BASE=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ export CMSSW_VERSION=CMSSW_7_1_30
+++ CMSSW_VERSION=CMSSW_7_1_30
+++ export CMSSW_GIT_HASH=CMSSW_7_1_30
+++ CMSSW_GIT_HASH=CMSSW_7_1_30
+++ export LOCALRT=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ LOCALRT=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack
+++ export LANG=C
+++ LANG=C
+++ export CMSSW_RELEASE_BASE=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30
+++ CMSSW_RELEASE_BASE=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30
+++ export ROOFITSYS=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/roofit/5.34.18-ddibom/
+++ ROOFITSYS=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/roofit/5.34.18-ddibom/
+++ export EVTGENDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/evtgen/1.3.0-ddibom10/share
+++ EVTGENDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/evtgen/1.3.0-ddibom10/share
+++ export PYTHIA8DATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pythia8/226-ddibom3/share/Pythia8/xmldoc
+++ PYTHIA8DATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pythia8/226-ddibom3/share/Pythia8/xmldoc
+++ export LHAPDF_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
+++ LHAPDF_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
+++ export FRONTIER_CLIENT=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/
+++ FRONTIER_CLIENT=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/
+++ export GENREFLEX=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/bin/genreflex
+++ GENREFLEX=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/bin/genreflex
+++ export TNS_ADMIN=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/oracle-env/29-cms/etc
+++ TNS_ADMIN=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/oracle-env/29-cms/etc
+++ export CASCADE_PDFPATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cascade/2.2.04-ddibom6/share
+++ CASCADE_PDFPATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cascade/2.2.04-ddibom6/share
+++ export VALGRIND_LIB=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/valgrind/3.9.0-ddibom/lib/valgrind
+++ VALGRIND_LIB=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/valgrind/3.9.0-ddibom/lib/valgrind
+++ export OPAL_PREFIX=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openmpi/2.1.1
+++ OPAL_PREFIX=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openmpi/2.1.1
+++ export MALLOC_CONF=lg_chunk:18,lg_dirty_mult:4
+++ MALLOC_CONF=lg_chunk:18,lg_dirty_mult:4
+++ export ROOTSYS=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/
+++ ROOTSYS=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/
+++ export HERWIGPATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/herwigpp/2.7.1-ddibom7/share/Herwig++
+++ HERWIGPATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/herwigpp/2.7.1-ddibom7/share/Herwig++
+++ export HEPPDT_PARAM_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/heppdt/3.03.00
+++ HEPPDT_PARAM_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/heppdt/3.03.00
+++ export G4FORCENUMBEROFTHREADS=max
+++ G4FORCENUMBEROFTHREADS=max
+++ export DBS_CLIENT_CONFIG=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI/dbs.config
+++ DBS_CLIENT_CONFIG=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI/dbs.config
+++ export DBSCMD_HOME=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI
+++ DBSCMD_HOME=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI
+++ export CLHEP_PARAM_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms
+++ CLHEP_PARAM_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms
+++ export COMPILER_RUNTIME_OBJECTS=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1
+++ COMPILER_RUNTIME_OBJECTS=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1
+++ export G4LEVELGAMMADATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4PhotonEvaporation/3.0/data/PhotonEvaporation3.0
+++ G4LEVELGAMMADATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4PhotonEvaporation/3.0/data/PhotonEvaporation3.0
+++ export QTINC=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/include
+++ QTINC=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/include
+++ export CMSSW_FWLITE_INCLUDE_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/hepmc/2.06.07-ddibom/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms/include
+++ CMSSW_FWLITE_INCLUDE_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/hepmc/2.06.07-ddibom/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/clhep/2.1.4.1-cms/include
+++ export GIT_TEMPLATE_DIR=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/git-core/templates
+++ GIT_TEMPLATE_DIR=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/git-core/templates
+++ export LD_LIBRARY_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/biglib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/biglib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/dcap:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/lcgdm
+++ LD_LIBRARY_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/biglib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/biglib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib64:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/dcap:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/lcgdm
+++ export G4SAIDXSDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4SAIDDATA/1.1-cms/data/G4SAIDDATA1.1
+++ G4SAIDXSDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4SAIDDATA/1.1-cms/data/G4SAIDDATA1.1
+++ export PDFPATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/share
+++ PDFPATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/share
+++ export G4ABLADATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4ABLA/3.0/data/G4ABLA3.0
+++ G4ABLADATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4ABLA/3.0/data/G4ABLA3.0
+++ export G4NEUTRONXSDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4
+++ G4NEUTRONXSDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NEUTRONXS/1.4/data/G4NEUTRONXS1.4
+++ export CMS_OPENLOOPS_PREFIX=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openloops/1.3.1
+++ CMS_OPENLOOPS_PREFIX=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/openloops/1.3.1
+++ export QTDIR=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1
+++ QTDIR=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1
+++ export G4RADIOACTIVEDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4RadioactiveDecay/4.0/data/RadioactiveDecay4.0
+++ G4RADIOACTIVEDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4RadioactiveDecay/4.0/data/RadioactiveDecay4.0
+++ export WORKER_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/blackhat/0.9.9-cms3/share/blackhat/datafiles/
+++ WORKER_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/blackhat/0.9.9-cms3/share/blackhat/datafiles/
+++ export ROOT_INCLUDE_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ ROOT_INCLUDE_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ export G4LEDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4EMLOW/6.35/data/G4EMLOW6.35
+++ G4LEDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4EMLOW/6.35/data/G4EMLOW6.35
+++ export G4NEUTRONHPDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NDL/4.4/data/G4NDL4.4
+++ G4NEUTRONHPDATA=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-G4NDL/4.4/data/G4NDL4.4
+++ export CMSSW_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms
+++ CMSSW_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms
+++ export GIT_EXEC_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/libexec/git-core
+++ GIT_EXEC_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/libexec/git-core
+++ export SHERPA_SHARE_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/share/SHERPA-MC
+++ SHERPA_SHARE_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/share/SHERPA-MC
+++ export GIT_SSL_CAINFO=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/ssl/certs/ca-bundle.crt
+++ GIT_SSL_CAINFO=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/ssl/certs/ca-bundle.crt
+++ export SHERPA_INCLUDE_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ SHERPA_INCLUDE_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sherpa/2.2.2-ddibom3/include/SHERPA-MC
+++ export QTLIB=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/lib
+++ QTLIB=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/qt/4.8.1/lib
+++ export GEANT4_PARFULLCMS_CONFIG_DIR=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-parfullcms/2014.01.27-ddibom2/share/ParFullCMS
+++ GEANT4_PARFULLCMS_CONFIG_DIR=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/geant4-parfullcms/2014.01.27-ddibom2/share/ParFullCMS
+++ export PERL5LIB=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/share/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/perl5
+++ PERL5LIB=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/git/1.8.3.1-ddibom/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/share/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/share/perl5:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/perl5/vendor_perl:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/perl5
+++ export PATH=/cvmfs/cms.cern.ch/share/overrides/bin:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/bin/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/bin/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/sbin:/cvmfs/cms.cern.ch/common:/cvmfs/cms.cern.ch/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/gkole/.local/bin:/home/gkole/bin
+++ PATH=/cvmfs/cms.cern.ch/share/overrides/bin:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/bin/slc6_amd64_gcc481:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/bin/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/gcc/4.8.1/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/bin:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/sbin:/cvmfs/cms.cern.ch/common:/cvmfs/cms.cern.ch/bin:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/gkole/.local/bin:/home/gkole/bin
+++ export CMSSW_SEARCH_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/data:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/data
+++ CMSSW_SEARCH_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/src:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/external/slc6_amd64_gcc481/data:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/src:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/external/slc6_amd64_gcc481/data
+++ export PYTHONPATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/python:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyqt/4.8.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-scipy/0.8.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-matplotlib/1.2.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/yoda/1.0.4-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python-ldap/2.4.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sip/4.11.2-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-sqlalchemy/0.8.2-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pycurl/7.19.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-python-dateutil/1.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-numpy/1.6.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-lint/0.25.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-ipython/0.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cx-oracle/5.1-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cjson/1.0.5-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/python/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/das_client/v02.17.04/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cython/0.19.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyminuit2/0.0.1-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pygithub/1.23.0-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-networkx/1.8.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/professor/1.0.0-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cvs2git/5419-cms2/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib/python2.6/site-packages:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/python2.6/site-packages:/usr/lib64/python2.6/site-packages:/usr/lib/python2.6/site-packages:
+++ PYTHONPATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/python:/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/python:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/coral/CORAL_2_3_21-ddibom4/slc6_amd64_gcc481/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyqt/4.8.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-scipy/0.8.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-matplotlib/1.2.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/yoda/1.0.4-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/python-ldap/2.4.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/sip/4.11.2-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/llvm/3.4-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-sqlalchemy/0.8.2-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pycurl/7.19.0-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-python-dateutil/1.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-numpy/1.6.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-lint/0.25.1-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-ipython/0.10-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cx-oracle/5.1-cms3/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-cjson/1.0.5-cms2/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/frontier_client/2.8.20/python/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/das_client/v02.17.04/bin:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cython/0.19.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/pyminuit2/0.0.1-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-pygithub/1.23.0-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/py2-networkx/1.8.1-cms/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/professor/1.0.0-ddibom/lib/python2.7/site-packages:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/lcg/root/5.34.18-ddibom/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/dbs-client/DBS_2_1_9-cms2/lib/DBSAPI:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/cvs2git/5419-cms2/lib:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib/python2.6/site-packages:/cvmfs/oasis.opensciencegrid.org/mis/osg-wn-client/3.3/3.3.29/el6-x86_64/usr/lib64/python2.6/site-packages:/usr/lib64/python2.6/site-packages:/usr/lib/python2.6/site-packages:
+++ export RIVET_ANALYSIS_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib
+++ RIVET_ANALYSIS_PATH=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/cms/cmssw/CMSSW_7_1_30/lib/slc6_amd64_gcc481:/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/rivet/1.8.2-ddibom/lib
+++ export SCRAM_ARCH=slc6_amd64_gcc481
+++ SCRAM_ARCH=slc6_amd64_gcc481
+++ scram tool tag boost INCLUDE
++ export BOOSTINCLUDES=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include
++ BOOSTINCLUDES=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/boost/1.51.0-cms2/include
++ LHAPDF6TOOLFILE=/stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/config/toolbox/slc6_amd64_gcc481/tools/available/lhapdf6.xml
++ '[' -e /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/config/toolbox/slc6_amd64_gcc481/tools/available/lhapdf6.xml ']'
+++ echo /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF/../../bin/lhapdf-config
++ LHAPDFCONFIG=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF/../../bin/lhapdf-config
+++ /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF/../../bin/lhapdf-config --datadir
++ export LHAPDF_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
++ LHAPDF_DATA_PATH=/cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF
++ '[' dyellell012j_5f_NLO_FXFX == interactive ']'
++ '[' 1 -gt 0 ']'
++ echo 'Reusing existing process directory - be careful!'
+Reusing existing process directory - be careful!
++ '[' -z cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX ']'
++ '[' '!' -d /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX ']'
++ '[' '!' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_run_card.dat ']'
++ '[' -d gridpack ']'
++ '[' -d processtmp ']'
++ '[' -d process ']'
++ '[' '!' -d dyellell012j_5f_NLO_FXFX ']'
++ '[' 0 -gt 0 ']'
++ echo 'copying generated process to working directory'
+copying generated process to working directory
++ cp -a dyellell012j_5f_NLO_FXFX/ processtmp
++ cd processtmp
++ isnlo=0
++ '[' -e ./MCatNLO ']'
++ isnlo=1
++ grep -q -e '$DEFAULT_PDF_SETS' -e '$DEFAULT_PDF_MEMBERS' /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_run_card.dat
++ echo 'INFO: Using default PDF sets for 2017 production'
+INFO: Using default PDF sets for 2017 production
++ '[' 1 -gt 0 ']'
++ '[' 1 -eq 1 ']'
++ sed 's/$DEFAULT_PDF_SETS/306000,322500,322700,322900,323100,323300,323500,323700,323900,305800,13000,13065,13069,13100,13163,13167,13200,25200,25300,25000,42780,90200,91200,90400,91400,61100,61130,61200,61230,13400,82200,292200,292600,315000,315200,262000,263000/' /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_run_card.dat
++ sed -i 's/$DEFAULT_PDF_MEMBERS/True,False,False,False,False,False,False,False,False,True,True,False,False,True,False,False,False,True,True,False,True,True,True,True,True,True,True,True,True,True,True,True,False,False,False,False,False/' ./Cards/run_card.dat
++ nFlavorScheme=5
++ '[' 1 -ne 1 ']'
++ grep -Fxq maxjetflavor ./Cards/run_card.dat
++ echo '5 = maxjetflavor'
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_param_card.dat ']'
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_cuts.f ']'
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_FKS_params.dat ']'
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_setscales.f ']'
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_reweight_xsec.f ']'
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_reweight_card.dat ']'
++ '[' 1 -gt 0 ']'
++ echo 'starting NLO mode'
+starting NLO mode
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_madspin_card.dat ']'
++ echo shower=OFF
++ echo done
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_customizecards.dat ']'
++ echo done
++ cat makegrid.dat
++ ./bin/generate_events -n pilotrun
+[?1034hNo module named madgraph
+INFO: ************************************************************
+*                                                          *
+*           W E L C O M E  to  M A D G R A P H 5           *
+*                       a M C @ N L O                      *
+*                                                          *
+*                 *                       *                *
+*                   *        * *        *                  *
+*                     * * * * 5 * * * *                    *
+*                   *        * *        *                  *
+*                 *                       *                *
+*                                                          *
+*         VERSION 5.2.4.2               20xx-xx-xx         *
+*                                                          *
+*    The MadGraph5_aMC@NLO Development Team - Find us at   *
+*                 http://amcatnlo.cern.ch                  *
+*                                                          *
+*               Type 'help' for in-line help.              *
+*                                                          *
+************************************************************ 
+INFO: load configuration from /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/processtmp/Cards/amcatnlo_configuration.txt  
+INFO: load configuration from /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/MG5_aMC_v2_4_2/input/mg5_configuration.txt  
+INFO: load configuration from /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/processtmp/Cards/amcatnlo_configuration.txt  
+Using default text editor "vi". Set another one in ./input/mg5_configuration.txt
+No valid eps viewer found. Please set in ./input/mg5_configuration.txt
+No valid web browser found. Please set in ./input/mg5_configuration.txt
+launch -n pilotrun
+The following switches determine which operations are executed:
+ 1 Perturbative order of the calculation:                               order=NLO
+ 2 Fixed order (no event generation and no MC@[N]LO matching):    fixed_order=OFF
+ 3 Shower the generated events:                                        shower=ON
+ 4 Decay particles with the MadSpin module:                           madspin=OFF
+ 5 Add weights to the events based on changing model parameters:     reweight=OFF
+  Either type the switch number (1 to 5) to change its default setting,
+  or set any switch explicitly (e.g. type 'order=LO' at the prompt)
+  Type '0', 'auto', 'done' or just press enter when you are done.
+ [[4m0[0m, 1, 2, 3, 4, 5, auto, done, order=LO, ... ][60s to answer] 
+>The following switches determine which operations are executed:
+ 1 Perturbative order of the calculation:                               order=NLO
+ 2 Fixed order (no event generation and no MC@[N]LO matching):    fixed_order=OFF
+ 3 Shower the generated events:                                        shower=OFF
+ 4 Decay particles with the MadSpin module:                           madspin=OFF
+ 5 Add weights to the events based on changing model parameters:     reweight=OFF
+  Either type the switch number (1 to 5) to change its default setting,
+  or set any switch explicitly (e.g. type 'order=LO' at the prompt)
+  Type '0', 'auto', 'done' or just press enter when you are done.
+ [[4m0[0m, 1, 2, 3, 4, 5, auto, done, order=LO, ... ][60s to answer] 
+>INFO: will run in mode: noshower 
+[1;34mWARNING: You have chosen not to run a parton shower. NLO events without showering are NOT physical.
+Please, shower the Les Houches events before using them for physics analyses. [0m
+Do you want to edit a card (press enter to bypass editing)?
+  1 / param      : param_card.dat
+  2 / run        : run_card.dat
+ you can also
+   - enter the path to a valid card or banner.
+   - use the 'set' command to modify a parameter directly.
+     The set option works only for param_card and run_card.
+     Type 'help set' for more information on this command.
+   - call an external program (ASperGE/MadWidth/...).
+     Type 'help' for the list of available command
+ [[4m0[0m, done, 1, param, 2, run, enter path][60s to answer] 
+>[1;34mWARNING: You are running with FxFx merging enabled.  To be able to merge
+    samples of various multiplicities without double counting, you
+    have to remove some events after showering 'by hand'.  Please
+    read http://amcatnlo.cern.ch/FxFx_merging.htm for more details. [0m
+INFO: Starting run 
+INFO: Compiling the code 
+run_card missed argument muf_over_ref. Takes default: 1.0
+run_card missed argument dynamical_scale_choice. Takes default: [-1]
+run_card missed argument iappl. Takes default: 0
+run_card missed argument store_rwgt_info. Takes default: False
+run_card missed argument rw_rscale. Takes default: [1.0, 2.0, 0.5]
+run_card missed argument rw_fscale. Takes default: [1.0, 2.0, 0.5]
+run_card missed argument muf_ref_fixed. Takes default: 91.188
+run_card missed argument shower_scale_factor. Takes default: 1.0
+INFO: Using LHAPDF v6.2.1 interface for PDFs 
+INFO: Compiling source... 
+INFO:           ...done, continuing with P* directories 
+INFO: Compiling StdHEP (can take a couple of minutes) ... 
+INFO:           ...done. 
+INFO: Compiling CutTools (can take a couple of minutes) ... 
+INFO:           ...done. 
+INFO: Compiling IREGI (can take a couple of minutes) ... 
+INFO:           ...done. 
+INFO: Compiling directories... 
+INFO: Compiling on 12 cores 
+INFO:  Compiling P0_uux_epem... 
+INFO:  Compiling P0_uux_taptam... 
+INFO:  Compiling P0_ddx_epem... 
+INFO:  Compiling P0_ddx_taptam... 
+INFO:  Compiling P0_uxu_epem... 
+INFO:  Compiling P0_uxu_taptam... 
+INFO:  Compiling P0_dxd_epem... 
+INFO:  Compiling P0_dxd_taptam... 
+INFO:  Compiling P1_gu_epemu... 
+INFO:  Compiling P1_gu_taptamu... 
+INFO:  Compiling P1_gd_epemd... 
+INFO:  Compiling P1_gd_taptamd... 
+INFO:     P0_uxu_taptam done. 
+INFO:  Compiling P1_gux_epemux... 
+INFO:     P0_dxd_epem done. 
+INFO:  Compiling P1_gux_taptamux... 
+INFO:     P0_uux_taptam done. 
+INFO:  Compiling P1_gdx_epemdx... 
+INFO:     P0_uux_epem done. 
+INFO:  Compiling P1_gdx_taptamdx... 
+INFO:     P0_ddx_taptam done. 
+INFO:  Compiling P1_ug_epemu... 
+INFO:     P0_uxu_epem done. 
+INFO:  Compiling P1_ug_taptamu... 
+INFO:     P0_ddx_epem done. 
+INFO:  Compiling P1_uux_epemg... 
+INFO:     P0_dxd_taptam done. 
+INFO:  Compiling P1_uux_taptamg... 
+INFO:     P1_gd_epemd done. 
+INFO:  Compiling P1_dg_epemd... 
+INFO:     P1_gu_epemu done. 
+INFO:  Compiling P1_dg_taptamd... 
+INFO:     P1_gd_taptamd done. 
+INFO:  Compiling P1_ddx_epemg... 
+INFO:     P1_gu_taptamu done. 
+INFO:  Compiling P1_ddx_taptamg... 
+INFO:     P1_gux_epemux done. 
+INFO:  Compiling P1_uxg_epemux... 
+INFO:     P1_uux_epemg done. 
+INFO:  Compiling P1_uxg_taptamux... 
+INFO:     P1_gux_taptamux done. 
+INFO:  Compiling P1_uxu_epemg... 
+INFO:     P1_gdx_epemdx done. 
+INFO:  Compiling P1_uxu_taptamg... 
+INFO:     P1_dg_epemd done. 
+INFO:  Compiling P1_dxg_epemdx... 
+INFO:     P1_ug_epemu done. 
+INFO:  Compiling P1_dxg_taptamdx... 
+INFO:     P1_uux_taptamg done. 
+INFO:  Compiling P1_dxd_epemg... 
+INFO:     P1_gdx_taptamdx done. 
+INFO:  Compiling P1_dxd_taptamg... 
+INFO:     P1_ug_taptamu done. 
+INFO:  Compiling P2_gg_epemuux... 
+INFO:     P1_ddx_epemg done. 
+INFO:  Compiling P2_gg_epemddx... 
+INFO:     P1_ddx_taptamg done. 
+INFO:  Compiling P2_gg_taptamuux... 
+INFO:     P1_dg_taptamd done. 
+INFO:  Compiling P2_gg_taptamddx... 
+INFO:     P1_uxu_epemg done. 
+INFO:  Compiling P2_gu_epemug... 
+INFO:     P1_uxu_taptamg done. 
+INFO:  Compiling P2_gu_taptamug... 
+INFO:     P1_uxg_epemux done. 
+INFO:  Compiling P2_gd_epemdg... 
+INFO:     P1_uxg_taptamux done. 
+INFO:  Compiling P2_gd_taptamdg... 
+INFO:     P1_dxd_epemg done. 
+INFO:  Compiling P2_gux_epemuxg... 
+INFO:     P1_dxd_taptamg done. 
+INFO:  Compiling P2_gux_taptamuxg... 
+INFO:     P1_dxg_epemdx done. 
+INFO:  Compiling P2_gdx_epemdxg... 
+INFO:     P1_dxg_taptamdx done. 
+INFO:  Compiling P2_gdx_taptamdxg... 
+INFO:     P2_gg_epemuux done. 
+INFO:  Compiling P2_ug_epemug... 
+INFO:     P2_gg_epemddx done. 
+INFO:  Compiling P2_ug_taptamug... 
+INFO:     P2_gg_taptamuux done. 
+INFO:  Compiling P2_uu_epemuu... 
+INFO:     P2_gg_taptamddx done. 
+INFO:  Compiling P2_uu_taptamuu... 
+INFO:     P2_gu_epemug done. 
+INFO:  Compiling P2_uc_epemuc... 
+INFO:     P2_gd_epemdg done. 
+INFO:  Compiling P2_uc_taptamuc... 
+INFO:     P2_gux_epemuxg done. 
+INFO:  Compiling P2_ud_epemud... 
+INFO:     P2_gdx_epemdxg done. 
+INFO:  Compiling P2_ud_taptamud... 
+INFO:     P2_gu_taptamug done. 
+INFO:  Compiling P2_uux_epemgg... 
+INFO:     P2_gux_taptamuxg done. 
+INFO:  Compiling P2_uux_epemuux... 
+INFO:     P2_gd_taptamdg done. 
+INFO:  Compiling P2_uux_epemccx... 
+INFO:     P2_uu_epemuu done. 
+INFO:  Compiling P2_uux_epemddx... 
+INFO:     P2_gdx_taptamdxg done. 
+INFO:  Compiling P2_uux_taptamgg... 
+INFO:     P2_uu_taptamuu done. 
+INFO:  Compiling P2_uux_taptamuux... 
+INFO:     P2_ug_epemug done. 
+INFO:  Compiling P2_uux_taptamccx... 
+INFO:     P2_ug_taptamug done. 
+INFO:  Compiling P2_uux_taptamddx... 
+INFO:     P2_uc_epemuc done. 
+INFO:  Compiling P2_ucx_epemucx... 
+INFO:     P2_uc_taptamuc done. 
+INFO:  Compiling P2_ucx_taptamucx... 
+INFO:     P2_ud_epemud done. 
+INFO:  Compiling P2_udx_epemudx... 
+INFO:     P2_ud_taptamud done. 
+INFO:  Compiling P2_udx_taptamudx... 
+INFO:     P2_uux_epemccx done. 
+INFO:  Compiling P2_dg_epemdg... 
+INFO:     P2_uux_epemuux done. 
+INFO:  Compiling P2_dg_taptamdg... 
+INFO:     P2_uux_epemddx done. 
+INFO:  Compiling P2_du_epemdu... 
+INFO:     P2_uux_epemgg done. 
+INFO:  Compiling P2_du_taptamdu... 
+INFO:     P2_uux_taptamuux done. 
+INFO:  Compiling P2_dd_epemdd... 
+INFO:     P2_uux_taptamccx done. 
+INFO:  Compiling P2_dd_taptamdd... 
+INFO:     P2_uux_taptamgg done. 
+INFO:  Compiling P2_ds_epemds... 
+INFO:     P2_uux_taptamddx done. 
+INFO:  Compiling P2_ds_taptamds... 
+INFO:     P2_ucx_epemucx done. 
+INFO:  Compiling P2_dux_epemdux... 
+INFO:     P2_ucx_taptamucx done. 
+INFO:  Compiling P2_dux_taptamdux... 
+INFO:     P2_udx_epemudx done. 
+INFO:  Compiling P2_ddx_epemgg... 
+INFO:     P2_udx_taptamudx done. 
+INFO:  Compiling P2_ddx_epemuux... 
+INFO:     P2_du_taptamdu done. 
+INFO:  Compiling P2_ddx_epemddx... 
+INFO:     P2_du_epemdu done. 
+INFO:  Compiling P2_ddx_epemssx... 
+INFO:     P2_dd_epemdd done. 
+INFO:  Compiling P2_ddx_taptamgg... 
+INFO:     P2_dg_epemdg done. 
+INFO:  Compiling P2_ddx_taptamuux... 
+INFO:     P2_ds_epemds done. 
+INFO:  Compiling P2_ddx_taptamddx... 
+INFO:     P2_dd_taptamdd done. 
+INFO:  Compiling P2_ddx_taptamssx... 
+INFO:     P2_ds_taptamds done. 
+INFO:  Compiling P2_dsx_epemdsx... 
+INFO:     P2_dg_taptamdg done. 
+INFO:  Compiling P2_dsx_taptamdsx... 
+INFO:     P2_dux_epemdux done. 
+INFO:  Compiling P2_uxg_epemuxg... 
+INFO:     P2_dux_taptamdux done. 
+INFO:  Compiling P2_uxg_taptamuxg... 
+INFO:     P2_ddx_epemuux done. 
+INFO:  Compiling P2_uxu_epemgg... 
+INFO:     P2_ddx_epemgg done. 
+INFO:  Compiling P2_uxu_epemuux... 
+INFO:     P2_ddx_epemddx done. 
+INFO:  Compiling P2_uxu_epemccx... 
+INFO:     P2_ddx_epemssx done. 
+INFO:  Compiling P2_uxu_epemddx... 
+INFO:     P2_dsx_epemdsx done. 
+INFO:  Compiling P2_uxu_taptamgg... 
+INFO:     P2_ddx_taptamssx done. 
+INFO:  Compiling P2_uxu_taptamuux... 
+INFO:     P2_ddx_taptamgg done. 
+INFO:  Compiling P2_uxu_taptamccx... 
+INFO:     P2_dsx_taptamdsx done. 
+INFO:  Compiling P2_uxu_taptamddx... 
+INFO:     P2_ddx_taptamddx done. 
+INFO:  Compiling P2_uxc_epemuxc... 
+INFO:     P2_ddx_taptamuux done. 
+INFO:  Compiling P2_uxc_taptamuxc... 
+INFO:     P2_uxg_epemuxg done. 
+INFO:  Compiling P2_uxd_epemuxd... 
+INFO:     P2_uxu_epemuux done. 
+INFO:  Compiling P2_uxd_taptamuxd... 
+INFO:     P2_uxu_epemgg done. 
+INFO:  Compiling P2_uxux_epemuxux... 
+INFO:     P2_uxu_epemccx done. 
+INFO:  Compiling P2_uxux_taptamuxux... 
+INFO:     P2_uxu_epemddx done. 
+INFO:  Compiling P2_uxcx_epemuxcx... 
+INFO:     P2_uxg_taptamuxg done. 
+INFO:  Compiling P2_uxcx_taptamuxcx... 
+INFO:     P2_uxu_taptamccx done. 
+INFO:  Compiling P2_uxdx_epemuxdx... 
+INFO:     P2_uxu_taptamddx done. 
+INFO:  Compiling P2_uxdx_taptamuxdx... 
+INFO:     P2_uxc_epemuxc done. 
+INFO:  Compiling P2_dxg_epemdxg... 
+INFO:     P2_uxu_taptamuux done. 
+INFO:  Compiling P2_dxg_taptamdxg... 
+INFO:     P2_uxc_taptamuxc done. 
+INFO:  Compiling P2_dxu_epemdxu... 
+INFO:     P2_uxu_taptamgg done. 
+INFO:  Compiling P2_dxu_taptamdxu... 
+INFO:     P2_uxd_epemuxd done. 
+INFO:  Compiling P2_dxd_epemgg... 
+INFO:     P2_uxd_taptamuxd done. 
+INFO:  Compiling P2_dxd_epemuux... 
+INFO:     P2_uxux_epemuxux done. 
+INFO:  Compiling P2_dxd_epemddx... 
+INFO:     P2_uxcx_epemuxcx done. 
+INFO:  Compiling P2_dxd_epemssx... 
+INFO:     P2_uxux_taptamuxux done. 
+INFO:  Compiling P2_dxd_taptamgg... 
+INFO:     P2_uxcx_taptamuxcx done. 
+INFO:  Compiling P2_dxd_taptamuux... 
+INFO:     P2_uxdx_epemuxdx done. 
+INFO:  Compiling P2_dxd_taptamddx... 
+INFO:     P2_uxdx_taptamuxdx done. 
+INFO:  Compiling P2_dxd_taptamssx... 
+INFO:     P2_dxu_epemdxu done. 
+INFO:  Compiling P2_dxs_epemdxs... 
+INFO:     P2_dxu_taptamdxu done. 
+INFO:  Compiling P2_dxs_taptamdxs... 
+INFO:     P2_dxg_epemdxg done. 
+INFO:  Compiling P2_dxux_epemdxux... 
+INFO:     P2_dxg_taptamdxg done. 
+INFO:  Compiling P2_dxux_taptamdxux... 
+INFO:     P2_dxd_epemuux done. 
+INFO:  Compiling P2_dxdx_epemdxdx... 
+INFO:     P2_dxd_epemddx done. 
+INFO:  Compiling P2_dxdx_taptamdxdx... 
+INFO:     P2_dxd_epemgg done. 
+INFO:  Compiling P2_dxsx_epemdxsx... 
+INFO:     P2_dxd_epemssx done. 
+INFO:  Compiling P2_dxsx_taptamdxsx... 
+INFO:     P2_dxd_taptamuux done. 
+INFO:     P2_dxd_taptamgg done. 
+INFO:     P2_dxd_taptamssx done. 
+INFO:     P2_dxs_epemdxs done. 
+INFO:     P2_dxd_taptamddx done. 
+INFO:     P2_dxs_taptamdxs done. 
+INFO:     P2_dxux_epemdxux done. 
+INFO:     P2_dxux_taptamdxux done. 
+INFO:     P2_dxdx_epemdxdx done. 
+INFO:     P2_dxsx_epemdxsx done. 
+INFO:     P2_dxdx_taptamdxdx done. 
+INFO:     P2_dxsx_taptamdxsx done. 
+INFO: Checking test output: 
+INFO: P0_uux_epem 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_uux_taptam 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_ddx_epem 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_ddx_taptam 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_uxu_epem 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_uxu_taptam 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_dxd_epem 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P0_dxd_taptam 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gu_epemu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gu_taptamu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gd_epemd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gd_taptamd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gux_epemux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gux_taptamux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gdx_epemdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_gdx_taptamdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_ug_epemu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_ug_taptamu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_uux_epemg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_uux_taptamg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_dg_epemd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_dg_taptamd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_ddx_epemg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_ddx_taptamg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_uxg_epemux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_uxg_taptamux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_uxu_epemg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_uxu_taptamg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_dxg_epemdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_dxg_taptamdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_dxd_epemg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P1_dxd_taptamg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gg_epemuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gg_epemddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gg_taptamuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gg_taptamddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gu_epemug 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gu_taptamug 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gd_epemdg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gd_taptamdg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gux_epemuxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gux_taptamuxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gdx_epemdxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_gdx_taptamdxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ug_epemug 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ug_taptamug 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uu_epemuu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uu_taptamuu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uc_epemuc 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uc_taptamuc 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ud_epemud 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ud_taptamud 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_epemgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_epemuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_epemccx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_epemddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_taptamgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_taptamuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_taptamccx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uux_taptamddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ucx_epemucx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ucx_taptamucx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_udx_epemudx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_udx_taptamudx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dg_epemdg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dg_taptamdg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_du_epemdu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_du_taptamdu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dd_epemdd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dd_taptamdd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ds_epemds 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ds_taptamds 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dux_epemdux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dux_taptamdux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_epemgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_epemuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_epemddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_epemssx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_taptamgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_taptamuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_taptamddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_ddx_taptamssx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dsx_epemdsx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dsx_taptamdsx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxg_epemuxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxg_taptamuxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_epemgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_epemuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_epemccx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_epemddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_taptamgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_taptamuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_taptamccx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxu_taptamddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxc_epemuxc 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxc_taptamuxc 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxd_epemuxd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxd_taptamuxd 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxux_epemuxux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxux_taptamuxux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxcx_epemuxcx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxcx_taptamuxcx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxdx_epemuxdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_uxdx_taptamuxdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxg_epemdxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxg_taptamdxg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxu_epemdxu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxu_taptamdxu 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_epemgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_epemuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_epemddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_epemssx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_taptamgg 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_taptamuux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_taptamddx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxd_taptamssx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxs_epemdxs 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxs_taptamdxs 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxux_epemdxux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxux_taptamdxux 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxdx_epemdxdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxdx_taptamdxdx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxsx_epemdxsx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: P2_dxsx_taptamdxsx 
+INFO:  Result for test_ME: 
+INFO:    Passed. 
+INFO:  Result for test_MC: 
+INFO:    Passed. 
+INFO:  Result for check_poles: 
+INFO:    Poles successfully cancel for 20 points over 20 (tolerance=1.0e-05) 
+INFO: Starting run 
+INFO: Cleaning previous results 
+INFO: Generating events without running the shower. 
+INFO: Setting up grids 
+Start waiting for update. (more info in debug mode)
+INFO:  Idle: 4,  Running: 84,  Completed: 1000 [  17.3s  ] 
+[1;34mWARNING: resubmit job (for the 1 times) [0m
+INFO:  Idle: 1,  Running: 75,  Completed: 1013 [  2m 27s  ] 
+INFO:  Idle: 0,  Running: 63,  Completed: 1026 [  4m 30s  ] 
+INFO:  Idle: 0,  Running: 48,  Completed: 1041 [  6m 32s  ] 
+INFO:  Idle: 0,  Running: 38,  Completed: 1051 [  8m 33s  ] 
+INFO:  Idle: 0,  Running: 33,  Completed: 1056 [  10m 34s  ] 
+INFO:  Idle: 0,  Running: 28,  Completed: 1061 [  12m 35s  ] 
+INFO:  Idle: 0,  Running: 24,  Completed: 1065 [  14m 36s  ] 
+INFO:  Idle: 0,  Running: 19,  Completed: 1070 [  16m 37s  ] 
+INFO:  Idle: 0,  Running: 15,  Completed: 1074 [  18m 38s  ] 
+INFO:  Idle: 0,  Running: 12,  Completed: 1077 [  20m 38s  ] 
+INFO:  Idle: 0,  Running: 10,  Completed: 1079 [  22m 39s  ] 
+INFO:  Idle: 0,  Running: 6,  Completed: 1083 [  24m 40s  ] 
+INFO:  Idle: 0,  Running: 6,  Completed: 1083 [  26m 40s  ] 
+INFO:  Idle: 0,  Running: 5,  Completed: 1084 [  28m 40s  ] 
+INFO:  Idle: 0,  Running: 5,  Completed: 1084 [  30m 41s  ] 
+INFO:  Idle: 0,  Running: 4,  Completed: 1085 [  32m 41s  ] 
+INFO:  Idle: 0,  Running: 3,  Completed: 1086 [  34m 41s  ] 
+INFO:  Idle: 0,  Running: 3,  Completed: 1086 [  36m 41s  ] 
+INFO:  Idle: 2,  Running: 1,  Completed: 1086 [  38m 42s  ] 
+INFO: Start to wait 300s between checking status.
+Note that you can change this time in the configuration file.
+Press ctrl-C to force the update. 
+INFO:  Idle: 0,  Running: 3,  Completed: 1086 [  43m 42s  ] 
+INFO:  Idle: 0,  Running: 2,  Completed: 1087 [  48m 42s  ] 
+INFO:  Idle: 0,  Running: 2,  Completed: 1087 [  53m 42s  ] 
+INFO:  Idle: 0,  Running: 2,  Completed: 1087 [  58m 42s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 1088 [  1h 3m  ] 
+INFO: All jobs finished 
+INFO:  Idle: 0,  Running: 0,  Completed: 1089 [  1h 8m  ] 
+INFO: Determining the number of unweighted events per channel
+
+      Intermediate results:
+      Random seed: 33
+      Total cross section:      1.141e+04 +- 3.9e+01 pb
+      Total abs(cross section): 2.599e+04 +- 5.0e+01 pb 
+
+ 
+INFO: Computing upper envelope 
+INFO:  Idle: 2,  Running: 11,  Completed: 1075 [  27.7s  ] 
+INFO:  Idle: 0,  Running: 5,  Completed: 1083 [  2m 28s  ] 
+INFO:  Idle: 0,  Running: 1,  Completed: 1087 [  4m 28s  ] 
+INFO: All jobs finished 
+INFO:  Idle: 0,  Running: 0,  Completed: 1088 [  6m 29s  ] 
+INFO: Updating the number of unweighted events per channel
+
+      Intermediate results:
+      Random seed: 33
+      Total cross section:      1.145e+04 +- 1.8e+01 pb
+      Total abs(cross section): 2.633e+04 +- 1.9e+01 pb 
+
+ 
+INFO: Generating events 
+INFO:  Idle: 5,  Running: 3,  Completed: 253 [  3.3s  ] 
+INFO:  Idle: 2,  Running: 0,  Completed: 259 [  2m 3s  ] 
+INFO:  Idle: 2,  Running: 0,  Completed: 259 [  4m 4s  ] 
+INFO: All jobs finished 
+INFO:  Idle: 0,  Running: 0,  Completed: 261 [  6m 4s  ] 
+INFO: Waiting while files are transferred back from the cluster nodes 
+INFO:    Doing reweight 
+INFO:  Idle: 3,  Running: 4,  Completed: 254 [  8.5s  ] 
+INFO: All jobs finished 
+INFO:  Idle: 0,  Running: 0,  Completed: 261 [  2m 8s  ] 
+[1;34mWARNING: Could not access LHAPDF to compute uncertainties for HERAPDF20_NLO_VAR [0m
+[1;34mWARNING: Could not access LHAPDF to compute uncertainties for HERAPDF20_NNLO_VAR [0m
+[1;34mWARNING: Could not access LHAPDF to compute uncertainties for CT14qed_inc_proton [0m
+INFO: Collecting events 
+INFO: 
+   --------------------------------------------------------------
+      Summary:
+      Process p p > ell+ ell- [QCD] @0 ; p p > ell+ ell- j [QCD] @1 ; p p > ell+ ell- j j [QCD] @2
+      Run at p-p collider (6500.0 + 6500.0 GeV)
+      Number of events generated: 1500
+      Total cross section: 1.101e+04 +- 1.8e+01 pb
+   --------------------------------------------------------------
+  Number of loop ME evaluations (by MadLoop): 5936156
+    Stability unknown:                   0
+    Stable PS point:                     5926416
+    Unstable PS point (and rescued):     9738
+    Unstable PS point (and not rescued): 2
+    Only double precision used:          5926416
+    Quadruple precision used:            9740
+    Initialization phase-space points:   0
+    Reduction methods used:
+      > CutTools (double precision)      5926416
+      > CutTools (quadruple precision)   9738
+      > Not identified (CTModeRun != -1) 2
+  Total number of unstable PS point detected: 2 (0.00%)
+    Maximum fraction of UPS points in channel processtmp/SubProcesses/P2_gux_taptamuxg/GF13 (0.05%)
+    Please report this to the authors while providing the file
+    /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/processtmp/SubProcesses/P2_gux_taptamuxg/GF13/UPS.log
+ 
+INFO: The /stash2/user/gkole/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/processtmp/Events/pilotrun/events.lhe.gz file has been generated.
+ 
+INFO: Events generated 
+reweight -from_cards
+decay_events -from_cards
+[1;34mWARNING: You have chosen not to run a parton shower. NLO events without showering are NOT physical.
+Please, shower the Les Houches events before using them for physics analyses. [0m
+INFO:  
+[1;34mWARNING: You are running with FxFx merging enabled.
+To be able to merge samples of various multiplicities without double counting,
+you have to remove some events after showering 'by hand'.
+Please read http://amcatnlo.cern.ch/FxFx_merging.htm for more details. [0m
+quit
+INFO:  
+ 
++ echo 'finished pilot run'
+finished pilot run
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_externaltarball.dat ']'
++ echo 'mg5_path = ../mgbasedir'
++ echo 'cluster_temp_path = None'
++ cd /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_gridpack/work/
++ mkdir gridpack
++ mv processtmp gridpack/process
++ cp -a MG5_aMC_v2_4_2/ gridpack/mgbasedir
++ cd gridpack
++ cp /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/runcmsgrid_NLO.sh ./runcmsgrid.sh
++ sed -i s/SCRAM_ARCH_VERSION_REPLACE/slc6_amd64_gcc481/g runcmsgrid.sh
++ sed -i s/CMSSW_VERSION_REPLACE/CMSSW_7_1_30/g runcmsgrid.sh
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_externaltarball.dat ']'
++ /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cleangridmore.sh
+cleaning unneeded files from gridpack
++ '[' -e /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/cards/production/2017/13TeV/dyellell012j_5f_NLO_FXFX/dyellell012j_5f_NLO_FXFX_externaltarball.dat ']'
++ echo 'Saving log file(s)'
+Saving log file(s)
++ for i in '${LOGFILE_NAME}*.log'
++ cp /home/gkole/stash/DY_PR_1438_test/genproductions/bin/MadGraph5_aMCatNLO/dyellell012j_5f_NLO_FXFX.log gridpack_generation.log

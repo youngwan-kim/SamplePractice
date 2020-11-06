@@ -1,0 +1,182 @@
+==== LHAPDF6 USING DEFAULT-TYPE LHAGLUE INTERFACE ====
+LHAPDF 6.2.1 loading /cvmfs/cms.cern.ch/slc6_amd64_gcc481/external/lhapdf/6.2.1/share/LHAPDF/NNPDF31_nnlo_hessian_pdfas/NNPDF31_nnlo_hessian_pdfas_0000.dat
+NNPDF31_nnlo_hessian_pdfas PDF set, member #0, version 1; LHAPDF ID = 306000
+Thanks for using LHAPDF 6.2.1. Please make sure to cite the paper:
+  Eur.Phys.J. C75 (2015) 3, 132  (http://arxiv.org/abs/1412.7420)
+ Enter the Monte Carlo name: possible choices are
+ HERWIG6, HERWIGPP, PYTHIA6Q, PYTHIA6PT, PYTHIA8
+ Enter 0 to compute MC/MC(limit)
+       1 to compute MC/ME(limit)
+ Enter alpha, beta for G_soft
+   Enter alpha<0 to set G_soft=1 (no ME soft)
+ Enter alpha, beta for G_azi
+   Enter alpha>0 to set G_azi=0 (no azi corr)
+ Enter xi_i, y_ij to be used in coll/soft tests
+  Enter -2 to generate them randomly
+ Enter number of tests for soft and collinear limits
+ Sum over helicity (0), or random helicity (1)
+   
+   
+ ****************************************************
+ ****************************************************
+             Testing limits for PYTHIA8   
+ ****************************************************
+ ****************************************************
+   
+   
+ A PDF is used, so alpha_s(MZ) is going to be modified
+ Old value of alpha_s from param_card:   0.11799999999999999     
+ New value of alpha_s from PDF lhapdf :  0.11800208008122040     
+ using LHAPDF
+ Give FKS configuration number ("0" loops over all)
+ 
+ =================================================
+ 
+ NEW FKS CONFIGURATION:
+ FKS configuration number is            1
+ FKS partons are: i=           7   j=           1
+ with PDGs:       i=          21   j=           2
+   
+   
+ Enter graph number (iconfig), '0' loops over all graphs
+Using random seed offsets:     0 ,     49 ,      0
+  with seed                   32
+ Ranmar initialization seeds       10729        9455
+nFKSprocess:  1. Absolute lower bound for tau at the Born is 0.00000E+00  0.00000E+00  0.65000E+03
+nFKSprocess:  1. Lower bound for tau is 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  1. Lower bound for tau is (taking resonances into account) 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  2. Absolute lower bound for tau at the Born is 0.00000E+00  0.00000E+00  0.65000E+03
+nFKSprocess:  2. Lower bound for tau is 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  2. Lower bound for tau is (taking resonances into account) 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  3. Absolute lower bound for tau at the Born is 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  3. Lower bound for tau is (taking resonances into account) 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  4. Absolute lower bound for tau at the Born is 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  4. Lower bound for tau is (taking resonances into account) 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  5. Absolute lower bound for tau at the Born is 0.00000E+00  0.00000E+00  0.65000E+03
+nFKSprocess:  5. Lower bound for tau is 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  5. Lower bound for tau is (taking resonances into account) 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  6. Absolute lower bound for tau at the Born is 0.00000E+00  0.00000E+00  0.65000E+03
+nFKSprocess:  6. Lower bound for tau is 0.11598E-01  0.70000E+02  0.65000E+03
+nFKSprocess:  6. Lower bound for tau is (taking resonances into account) 0.11598E-01  0.70000E+02  0.65000E+03
+ 
+ 
+ 
+ Soft tests done for (Born) config           1
+ Failures:           0
+     Soft test  1 PASSED. Fraction of failures: 0.00
+ 
+ 
+ 
+ Collinear tests done for (Born) config           1
+ Failures:           0
+Collinear test  1 PASSED. Fraction of failures: 0.00
+ 
+ =================================================
+ 
+ NEW FKS CONFIGURATION:
+ FKS configuration number is            2
+ FKS partons are: i=           7   j=           2
+ with PDGs:       i=          21   j=           4
+   
+   
+ Enter graph number (iconfig), '0' loops over all graphs
+ 
+ 
+ 
+ Soft tests done for (Born) config           1
+ Failures:           0
+     Soft test  2 PASSED. Fraction of failures: 0.00
+ 
+ 
+ 
+ Collinear tests done for (Born) config           1
+ Failures:           0
+Collinear test  2 PASSED. Fraction of failures: 0.00
+ 
+ =================================================
+ 
+ NEW FKS CONFIGURATION:
+ FKS configuration number is            3
+ FKS partons are: i=           7   j=           5
+ with PDGs:       i=          21   j=           2
+   
+   
+ Enter graph number (iconfig), '0' loops over all graphs
+ 
+ 
+ 
+ Soft tests done for (Born) config           1
+ Failures:           0
+     Soft test  3 PASSED. Fraction of failures: 0.00
+ 
+ 
+ 
+ Collinear tests done for (Born) config           1
+ Failures:           0
+Collinear test  3 PASSED. Fraction of failures: 0.00
+ 
+ =================================================
+ 
+ NEW FKS CONFIGURATION:
+ FKS configuration number is            4
+ FKS partons are: i=           7   j=           6
+ with PDGs:       i=          21   j=           4
+   
+   
+ Enter graph number (iconfig), '0' loops over all graphs
+ 
+ 
+ 
+ Soft tests done for (Born) config           1
+ Failures:           0
+     Soft test  4 PASSED. Fraction of failures: 0.00
+ 
+ 
+ 
+ Collinear tests done for (Born) config           1
+ Failures:           0
+Collinear test  4 PASSED. Fraction of failures: 0.00
+ 
+ =================================================
+ 
+ NEW FKS CONFIGURATION:
+ FKS configuration number is            5
+ FKS partons are: i=           7   j=           1
+ with PDGs:       i=          -2   j=          21
+   
+   
+ Enter graph number (iconfig), '0' loops over all graphs
+ 
+ 
+ 
+ Soft tests done for (Born) config           1
+ Failures:           0
+     Soft test  5 PASSED. Fraction of failures: 0.00
+ 
+ 
+ 
+ Collinear tests done for (Born) config           1
+ Failures:           0
+Collinear test  5 PASSED. Fraction of failures: 0.00
+ 
+ =================================================
+ 
+ NEW FKS CONFIGURATION:
+ FKS configuration number is            6
+ FKS partons are: i=           7   j=           2
+ with PDGs:       i=          -4   j=          21
+   
+   
+ Enter graph number (iconfig), '0' loops over all graphs
+ 
+ 
+ 
+ Soft tests done for (Born) config           1
+ Failures:           0
+     Soft test  6 PASSED. Fraction of failures: 0.00
+ 
+ 
+ 
+ Collinear tests done for (Born) config           1
+ Failures:           0
+Collinear test  6 PASSED. Fraction of failures: 0.00
