@@ -34,3 +34,4 @@ cmsDriver.py Configuration/SamplePractice/python/${FRAGMENT}_cff.py --python_fil
 
 # run cmsRun command
 cmsRun config/${FRAGMENT}_cff.py
+`
